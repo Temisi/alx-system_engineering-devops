@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - | grep "Something" | wc -l
+perl -lne '$. %2 ==1;'
